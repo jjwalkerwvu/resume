@@ -1,0 +1,433 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+% use pdfpages to include additional pdf files!!!
+\usepackage[final]{pdfpages}	
+
+%% can't get hyperlinks to work, due to an option clash for package hyperref 
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true,linkcolor=blue}
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Jeffrey} % Your first name
+\familyname{Walker} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\title{List of Publications}
+\address{IJburglaan 1055}{1087 EN Amsterdam, Netherlands}
+%\address{2485 Bauer Rd}{Eden, NY 14057, USA}
+\mobile{+31 (0)64 373 7950}
+%\phone{+1 (319) 353 2320}
+%\fax{(000) 111 1113}
+\email{jjwalkerwvu@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%\photo[70pt][0.4pt]{pictures/jeff.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A quotation if you want." - Some Guy}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+
+%% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+%% Letter recipient
+%Dr. Oscar Versolato / Prof.dr. W. Ubachs / Prof.dr. R. Hoekstra
+\recipient{Hiring Manager}{Aegon\\Den Haag, Netherlands}
+%\recipient{recipient name}{Department of Statistics\\414 Van Allen Hall \\University of Iowa %}
+%\recipient{Hans Nilsson}{Swedish Institute of Space Physics \\Kiruna, Sweden} 
+%% Put email address in or not?
+%e.camporeale@cwi.
+\date{\today} % Letter date
+\opening{Greetings,} % Opening greeting
+
+
+
+
+\closing{Thank you for your consideration,} %% Closing phrase
+%% Do I need the line below?
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents enclosed
+
+%% Print letter title
+\makelettertitle 
+
+%% Content for this letter: 
+%% "A letter of motivation including research interests and reasons for applying for this position"
+%% For IRF: A short letter (one page) stating research interests and relevant experience
+
+
+%% Interest in space weather?
+% Talk about space hazards, starting with dust and transition to the effects of space weather and then machine learning?
+% Protecting (assets) from space hazards is a major challenge.
+% Sen, Sanat and Ganguli's precursor soliton work?
+% ^-acts as an example of detection of hazard to spacecraft?
+% spacecraft charging?
+% Rapid energization of electrons up to a few MeV
+
+%%%%%
+%% Opening
+%% Indicate here what function you are applying for and mention how you came to know about the vacancy, or make a light-hearted opening with which you can immediately make an impression, surprise the reader, for that distinguishes you from others
+% IRF, Guest Scientist (2.2.1-81/19)
+%(Postdoc on the subject of Machine Learning and Space Weather)
+%I am a space scientist with experience analyzing spacecraft data and in developing numerical methods to study physical processes. 
+%My research interests include interaction of solar wind with lunar magnetic anomalies, dust charging, and dust-plasma interaction.
+%As someone with both academic and business experience, I appreciate ARCNL's model of conducting fundamental scientific research to address technological challenges.
+%The ESA Rosetta mission marked an exciting endeavor into the frontiers of space science, and I am eager to participate in the research of mission data as a guest scientist at IRF (2.2.1-81/19). 
+%in order to study the cometary environment of 67P Churyumov-Gerasimenko and its interaction with the solar wind.  
+%I have an emerging interest in applying machine learning to analyze spacecraft data, which is why I am excited by the possibility of acquiring hands-on experience with such methods to study and predict killer electron precipitation in this Post-Doctoral research position on the subject of Machine Learning and Space Weather.
+%Bayesian parameters estimation, uncertainty quantification and machine learning techniques
+% predict space weather using machine learning techniques?
+% I enjoy using numerical methods to analyze problems in space science?
+%%
+%% Talk about how I like the ARCNL approach of performing basic science in support of real world applications?
+%% The experiment position: (Postdoctoral Research Associate in Experimental Atomic and Laser-Plasma Physics)
+%% The other position: Postdoctoral Research Associate in Fluid and Plasma Dynamics at ARCNL
+%The activities at ARCNL represent an exciting intersection of many fields of physics
+%I am a scientist with a background in plasma physics and space science.
+%I am a scientist with a background in plasma physics and space science, having past experience with experimental, numerical simulation, data analysis, and modeling research.
+I am a scientist with computational physics training, having past experience with numerical simulation, data analysis, modeling research, and business problems.
+%In my less than five years of professional work experience, I have provided critical insight into data returned from NASA space missions and delivered a machine learning product in Python to Royal IHC to forecast dredge pump performance with high accuracy and thereby decrease their operating costs.
+In my three years of professional work experience, I have provided critical insight into data returned from NASA space missions and delivered a machine learning product in Python to Royal IHC to forecast dredge pump performance with high accuracy and thereby decrease their operating costs.
+%As a hobby, I trade deriviatives, including options on equities, indices and commodities (futures).
+%This year has been quite successful for me, including large wins with VIX call options, US bond futures put options during the deleveraging near March 9, and most recently, a strangle on the Euro to US dollar currency pair.
+%% Maybe I don't keep the next sentence then?
+%I have also applied machine learning methods to solve business problems.
+%I have performed research in plasma and space physics.
+%Dense laser-produced plasmas are an exciting area of physics research, which is why I am applying for the position of Postdoctoral Research Associate in Experimental Atomic and Laser-Plasma Physics at ARCNL.
+%I am intruiged by the science questions regarding warm dense plasma, which is why I am applying for the  Postdoctoral Research Associate in Fluid and Plasma Dynamics at ARCNL.
+%This position for a postdoctoral researcher in experimental particle physics combines my passion for fundamental physics research with my interest in machine learning methods for data analysis.
+%This position for Data scientist at Rabobank fulfills my interest in finance along with my passion for working with data.  
+%This position for data scientist at Rabobank combines my passion for data with my ambition to create value in the financial sector.
+%This position for junior model validator at Rabobank combines my passion for quantitative methods with my ambition to create value in the financial sector.
+%This position for Options Quantitative Researcher at Flow Traders combines my passion for in-depth quantitative research with my ambition to identify and exploit trading opportunities.
+%This junior model validator role offers an opportunity for me to break into quantitative finance to evaluate credit risk models.
+This position for Junior Quantitative Risk Analyst at Aegon combines my passion for quantitative methods with my ambition to create value in the financial sector.
+% Break into a quantitative role?
+\vspace{0.25cm}
+
+%% Motivation
+%% Indicate why you aspire this function and why you chose for this organisation/company?
+%% I.e., one of my research interests is studying the interaction between lunar magnetic anomalies/lunar surface and the solar wind.
+%% How to discuss my motivation for the ARCNL postdoc? 
+%% How do I relay my excitement?
+%% This project aims at understanding the fundamental processes driving the deformation and fragmentation of tin micro-droplet targets after laser pulse impact
+%As a post-doctor researcher, my work involved Energetic Neutral Atom (ENA) detection from the lunar surface.
+%In my work as a Post-Doctoral researcher with Jasper Halekas, I was able to demonstrate that the anomalous integrated current observed by the Lunar Dust Experiment (\textsc{Ldex}) aboard the Lunar Atmosphere and Dust Environment Explorer (\textsc{Ladee}), is caused by Energetic Neutral Atoms (ENAs) reflected from the sun-lit side of the moon.   
+%Approximately 20\% of the solar wind flux is reflected as ENAs, but LDEX was not designed or expected to observe this flux. 
+%In our Planetary and Space science paper, we developed a numerical model to predict ENA flux incident on \textsc{Ldex}, even though \textsc{Ldex} was not designed or expect to observe this flux.
+%The \textsc{Ldex} current is highly correlated to the solar wind flux through ENA flux.
+%When we modified the ENA reflection coefficient in some Lunar Magnetic Anomaly (LMA) regions, we predicted current depletions that are in qualitative agreement with the observed LDEX current. 
+%The \textsc{Ladee} observations of LMA display a variability that may be attributed to solar wind activity.
+% (There is also the possibility of making logical classifier to study interaction between solar wind and lma regions?)
+%We suspect that the variability of solar wind parameters controls how these anomalies are observed by LDEX, which is something we are still assessing through statistical analyses.
+% Hope to publish this work? 
+%We are also analyzing the LDEX dataset to determine the response function of LDEX to energetic neutrals across a range of solar wind energies, using non-negative least squares optimization.
+%In order to trust this result, we have purpose-built a numerical procedure similar to a root-finding algorithm, which uses cross-correlation between predicted ENA flux and LDEX current as a cost function. 
+%Although this algorithm produces a unitless, normalized response function, it will serve as a qualitative check for the least squares results. 
+%Finding the response function of LDEX is useful, because it may tell us more about the mechanism by which ENAs are detected by LDEX, and the remaining LDEX flight spare may be used in a future space mission.
+%The returned data from such a mission could be used for dust and ENA detection in one dataset.
+%My work in this area allowed me to develop numerical models to analyze spacecraft data, and to appreciate the role of solar wind variation as a driver for Lunar phenomena.
+%As demonstrated by my publications, I have focussed on fundamental science questions in plasma physics and space science.
+%The research program of the Advanced Research Center for Nanolithography provides the opportunity to solve intriguing fundamental science questions while also contributing to important advances in the practical application of lithography.
+%The research program of ARCNL provides the opportunity to solve intriguing fundamental science questions while also contributing to important advances in the practical application of lithography.
+%% some of the science questions: 
+%% How does ir light couple into tin droplets?
+%% How do tin droplets evolve in shape as a result of a laser pulse? (remember, droplets may share some features with dust grains!)
+%% How do the processes influence the formation of a plasma from the droplets, and how does that influence the EUV light production?
+%% What are the constituents of the tin plasma (charge states, excitation states, density distribution, mass distribution, velocity distribution) and how can this plasma be manipulated to increase the in-band EUV emission? (2% of fwhm around 13nm UV)
+%% connect what I find interesting with the arcnl research with my past research?
+%As a plasma physicist, I am interested in the charge states, density distribution, mass distribution and velocity distribution of these tin plasmas.
+%I am eager to design and conduct experiments, and analyse the resulting experimental data to better understand these plasmas and their processes.
+%I would like to understand the fundamental processes driving the deformation and fragmentation of tin micro-droplet targets after laser pulse impact
+%% understanding the fundamental processes driving the deformation and fragmentation of tin micro-droplet targets after laser pulse impact
+%I would like to learn more about the measurement techniques necessary to investigate warm dense matter under these conditions.
+%I am curious in the interplay between EUV emission and reabsorption as tin droplets evolve in shape and as plasma.
+%Understanding the interplay between EUV reabsorption and emission
+%I would like to apply my skills and experience to study fundamental plasma science that has an inherently strong link to practical application.
+%to the practical application of lithography
+%I hope to apply my skills and experience to understand the fundamental processes driving the deformation and fragmentation of tin micro-droplet targets after laser pulse impact.
+%% For the computational imagining postdoc:
+%Since I have worked in the field of fundamental science and in machine learning solutions for business...
+%Experiments at CERN investigate nature at a fundamental level.
+%Quark-gluon plasma is an exotic state of matter at the very frontier of our understanding.
+%% What are some science questions to display my interest?
+%% Discuss jet substructure? 
+%% Using the structure of jets to understand the underlying quark-gluon plasma?
+%It is exciting to me as a scientist that the jets originating from heavy ion collisions can be used to learn the about the properties of quark-gluon plasma.
+%I am intrigued in how the jets originating from heavy ion collisions can be used to learn about the properties of quark-gluon plasma.
+%I am intrigued by the possibility of probing heavy ion collisions using quark and gluon jet substructure, especially with machine learning as a tool for approaching data analysis and interpretation.
+%% Some starting comment about how Rabobank is good.
+%Rabobank is a world leader in the banking industry.
+%ABN AMRO is a world leader in the banking industry.
+Aegon is a world class insurance and asset management company, so I am eager to prove myself as a quantitative risk analyst to such a high standard.
+I am eager to find hidden risks in markets and investments and to develop mitigation strategies.
+%Flow Traders occupies a critical role in financial markets as a market maker.
+%I am familiar with their core business of ETF arbitrage.
+%The vast store of transaction records, documents, and other data held by Rabobank represents an opportunity for discovery. 
+%The possibility of putting this data to work in order to drive value creation and produce an edge in the competitive banking space is an exciting prospect.
+%I am personally motivated by solving challenging puzzles as they present themselves in data, so I am eager to execute analysis that leads to valuable new insights.
+%I find it incredibly rewarding to successfully develop and implement my analytical solutions, and to contribute to the team effort.
+%I understand the importance of maintaining this strong position by reviewing credit risk models, eliminating sources of hidden risk and making sure that points of failure are known.
+%I am personally motivated by solving challenging puzzles as they present themselves in data, so I am eager to execute analysis that leads to valuable new insights.
+%I constantly question the assumptions and results from analytical models in an effort to improve their efficacy and applicability. 
+%I find it incredibly rewarding to successfully develop and implement my analytical solutions, and to contribute to the team effort.
+\vspace{0.25cm}
+
+%% Suitability
+%% Why are you suitable for this position? Which of your competencies fits the requirements described in the advertisement?
+%%
+%For my Ph.D. research in plasma physics, I used numerical methods to show how local charging rate affects the transport of particulate matter in plasma experiment and computer chip etching reactors.
+%unthinkable novel? unique?
+%As a post-doctoral researcher, I successfully demonstrated an innovative result from spacecraft data that challenged accepted wisdom. 
+%As a data scientist for Jugaad Analytics, I developed a machine learning, forecasting product for Royal IHC in 3 months which led to a larger contract with them.
+%In my dissertation work with Mark Koepke, I developed numerical and analytical methods to study grain charging and motion in a magnetized, inhomogeneous dusty plasma. 
+%As a Ph.D. Student and a post-doctoral researcher, I have focused on fundamental science using computational methods.
+%With Mark Koepke and Michael Zimmerman, I developed a single particle test code to look for the effects of time-dependent grain charging on grain trajectories.
+%I used this simulation code, along with my theory for abrupt plasma inhomogeneity to make predictions for the Auburn Magnetized Dusty Plasma (MDPX) experiment. 
+%Charging and motion timescales are vastly different, differing by seven orders of magnitude. 
+%The inclusion of a separate timescale for grain charging is a crucial feature in my simulation code, because the charging process is ignored by many dust codes, even though the effect is non-ignorable when the charging timescale is similiar to the gyro-period, the bounce-period, or other similar dynamical time scale.
+%In order to achieve meaningful results, we implemented a charging algorithm...  
+%Additionally, the ion drag force experienced by the dust grain is non-linearally dependent on grain velocity and grain charge, so standard treatments such as Boris pusher algorithm used in PIC codes are insufficient to model the motion.
+%In our paper in Physics of Plasmas, I developed a code that treats non-linear velocity force terms, and we show how Gatti and Kortshagen's charging model and Patacchini and Hutchinson's charging model, which are recent improvements to the grain-charging literature, yield different predictions for grain trajectories in MDPX.
+%My work in this area of grain charging helped me when approaching problems where a computational tool was not already available.
+%Additionally, my experience in grain charging has helped me to be aware of the hazards of space debris to spacecraft.
+%I am familiar with the work being done by Sen, Kaw, and Tiwari which provides a means to predict space debris with enough time for the spacecraft to evade before impact.
+%I developed theory and collaborated with Michael Zimmerman to build a test particle simulation code to incorporate grain charging into the grain dynamics for three different charging models in a magnetized, inhomogeneous dusty plasma. The inclusion of a separate timescale for grain charging is a crucial feature, because the charging process is ignored by many dust codes, even though the effect is non-ignorable when the charging timescale is similiar to the gyro-period, the bounce-period, or other similar dynamical time scale. My research shows how Gatti and Kortshagen's charging model and Patacchini and Hutchinson's charging model, which are recent improvements to the grain-charging literature, yield different predictions for gyro-phase drift magnitude in the Auburn Magnetized Dusty Plasma Experiment.
+% Charging of dust grains is similar to the charging of a spacecraft? --> space hazards?
+%As a Ph.D. student, I assisted our group's experimental efforts on the WVU Q-machine, the Bl\r{a}mann toroidal plasma device, and the large plasma device at UCLA. 
+%I analysed data from the large plasma device to confirm that the observed stationary inertial Alfv\'{e}n wave structure was not a measurement artifact.
+%I conducted my dissertation research within the community of the Low Temperature Science Center, where there was a strong focus on non-equilibrium phenomena in laboratory and industry plasmas.
+%The LTPSC was funded by United States Department of Energy, and sought to address fundamental science questions for non-equilibrium phenomena in laboratory plasmas and also practical issues concerning industry and manufacturing.
+%The LTPSC is funded by United States Department of Energy as a center for predictive control of plasma kinetics in multi-phase and bounded systems, which addresses fundamental science questions for non-equilibrium phenomena in laboratory plasmas and also practical issues concerning industry and manufacturing.
+%Center for predictive control of plasma kinetics: multi-phase and bounded systems.
+%As a post-doctoral researcher at the University of Iowa, I investigated NASA spacecraft data.
+%As a post-doctoral researcher for Jasper Halekas at the University of Iowa, I used a numerical model in conjunction with analysis of returned data to demonstrate that Energetic Neutral Atoms (ENAs) in the 10-100 eV range provide the best explanation for the mystery source of current observed in a NASA spacecraft instrument which was not designed for ENA optics.
+%During my education and professional experience, I have worked with the scientific languages Python, MATLAB, and IDL, and the compiled languages C$^{++}$ and Fortran.
+In the research for my Ph.D., I studied and devoloped computational methods to puzzles presented by phenomena in complex systems.    
+As a researcher for the University of Iowa, I used an innovative numerical model in conjunction with analysis of returned data to solve an unresolved puzzle associated with an unexpected current measured by a spacecraft instrument.
+This discovery led to a more complete understanding of the lunar environment.
+%So, I am interested in leveraging multiple instruments to help find alternative and corroborative methods to probe plasma processes for scientific discovery.
+%In my business career, I have had to communicate with and deliver to stakeholders, such as in my consulting work for Royal IHC. 
+%From my business experience, I can appreciate how ASML will want returns in the form of tangible results for their investment to the Advanced Research Center.
+As a data scientist, I liaised with Royal IHC to deliver business solutions in the form of a machine-learning product in Python to forecast dredge pump efficiency, creating immediate value to this client.
+%As a data scientist for Jugaad Analytics, I developed a machine learning, forecasting product for Royal IHC in 3 months which led to a larger contract with them.
+%I actively communicated with my stakeholders and delivered crucial updates through each phase of this consulting work.
+Since my last position at Jugaad, I have been actively working on quantitative finance projects, such as building from the ground up data pipelines to analyze volatility term structure and developing models to quickly compute risk-neutral measures from option chains on major exchanges.
+%I am currently screening for arbitrage opportunies in volatility term structure, in addition to my speculative trades based on macroeconomic data.
+\vspace{0.25cm}
+
+%% Closing: 
+%% Make sure to give a powerful closing and ask for an interview. Refer to the enclosed CV
+%I do not have any publications utlizing machine learning techniques, but I am eager to apply my understanding of fundamental numerical methods and machine learning to classification and prediction problems in space weather, particularly MeV geonsynchronous electron energy flux.
+%particularly, killer electrons, ~MeV geosynchronous electron energy flux
+%With respect to machine learning, I have at least performed the exercise of making a neural network for the simple task of identifying handwritten digits, and I have elementary experience with support vector machines. 
+%I do not have extensive experience with Bayesian parameters estimation, uncertainty quantification and machine learning techniques used in your research program, but I am eager to develop these skills for my numerical skillset by working on the very important problem of space weather prediction.
+%Bayesian parameters estimation, uncertainty quantification and machine learning techniques
+%I hope to contribute to the grey-box approach to this problem, where artificial intelligence helps provide forecasting ability, but also in how this tool can be used to give insight into the importance of physical and empirical estimations.  
+% "grey box" approach?
+%It is of great (personal?) interest to me how the classification schemes of support vector machines and neural networks might be used to make accurate predictions of MeV geonsynchronous electron energy flux, but also in how these tools can be used in order to give insight into physical processes.
+% I am adaptable, capable of working in different areas? 
+%I enjoy new challenges?
+%I am excited by the prospect of studying the cometary plasma environment of 67P Churyumov-Gerasimenko and its interaction with the solar wind.
+%I hope to contribute to the intensive data analysis phase, and study other regimes of solar wind interaction.
+%I am eager to apply my plasma physics expertise to understanding the fundamental processes of high power laser beam interaction with tin micro-droplets.
+%I am eager to apply my plasma physics expertise to conduct experiments and analyse data from laser beam interaction with tin micro-droplets.
+%I am eager for the chance to publish in this area of study?
+%I hope to get the opportunity to apply my plasma physics expertise, along with my data analysis and machine learning experience to analyze jet physics in quark-gluon plasma and deliver important, publishable results in major scientific journals.
+%I hope to apply my data science and machine learning experience as a data scientist with Rabobank.
+%I hope that I am afforded the opportunity to bring my data science, machine learning, and business experience to Rabobank as a data scientist.
+%I hope that I am afforded the opportunity to bring my data science, machine learning, and business experience to Rabobank as a junior model validator.
+%I hope that I am afforded the opportunity to bring my data science, machine learning, and business experience to Flow Traders as an Options Quanitative Researcher.
+I hope that I am afforded the opportunity to bring my data analysis, machine learning, and business experience to Aegon as a Junior Quantitive Risk Analyst.
+I look forward to your response.
+
+
+
+\makeletterclosing %% Print letter signature
+
+\clearpage
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+%\subsection{Miscellaneous}
+
+% Radioshack job can go here I suppose.
+%\cventry{2004--2005}{Sales Associate}{RadioShack}{Buffalo, NY}{}{As a sales associate during my undergraduate career, I was responsible for greeting and serving customers with enthusiasm and energy. I was also responsible for maintaining technical knowledge in order to confidently offer customers cutting-edge solutions. My other responsibilities also included maintaining the store’s policies and procedures regarding stocking, cleaning, and merchandising.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% I have no awards :`(
+%\section{Awards}
+
+%\cvitem{2011}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION, or alternatively use this as a section to discuss papers and conferences
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%%\cvitem{2010}{Oral Presentation at the California Business Conference}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+%\cvitem{2016}{J. J. Walker, M.E. Koepke, and M. I. Zimmerman, Predictions for Gyro-phase Drift in MDPX, \textit{Physics of Plasmas} \textbf{23}, 103707, (2016).\newline \url{http://dx.doi.org/10.1063/1.4966202}}
+%
+%\cvitem{2014}{J. J. Walker, M.E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, Analytical model for gyro-phase drift arising from abrupt inhomogeneity, \textit{Journal of Plasma Physics} \textbf{80}, 3, pp 395-404, (2014).\newline  \url{https://doi.org/10.1017/S0022377813001359} } 
+%
+%\cvitem{2013}{M.E. Koepke, J. J. Walker, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, Signature of Gyro-phase Drift, \textit{Journal of Plasma Physics} \textbf{79}, 6, pp 1099-1105, (2013).\newline \url{https://doi.org/10.1017/S0022377813001128}}
+%
+%\cvitem{2009}{H. Gunell, J. J. Walker, M. E. Koepke, T. Hurtig, N. Brenning, and H. Nilsson, Numerical experiments on plasmoids entering a transverse magnetic field, \textit{Physics of Plasmas} \textbf{16}, 112901, (2009).\newline \url{http://dx.doi.org/10.1063/1.3267860}}
+
+
+%% comment out the conferences for the generic resume
+%----------------------------------------------------------------------------------------
+%% put conferences here too??
+%\section{Conference and Workshop Contributed Posters}
+
+%\cvitem{2016}{J. J. Walker, J. S. Halekas, M. Hor\'{a}nyi, J. R. Szalay, A. R. Poppe, and M. C. Lue, ``\textit{ENA Measurements of the Lunar Surface using LDEX}", Meeting of the American Geophysical Union, San Francisco, CA, 12--16 Dec} 
+
+%\cvitem{2015}{J. J. Walker, J. S. Halekas, M. Hor\'{a}nyi, J. R. Szalay, and A. R. Poppe, ``\textit{Measurement of Energetic Neutral Atom Flux in the Lunar Exosphere using the LDEX Instrument}", Meeting of the American Geophysical Union, San Francisco, CA, 14--18 Dec} 
+
+%\cvitem{2014}{J. J. Walker, M. E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, ``\textit{Non-Stationary Charging Dynamics of an Inhomogeneous Granule-Plasma Multi-phase System}", Department of Energy Center for Predictive Control of Plasma Kinetics: Multi-Phase and Bounded Systems, College Park, MD, 15--16 May}
+
+%\cvitem{2013}{M. Koepke, J. Tucker, C. Freeman, D. Meisel, J. Walker, M. Zimmerman, W. Farrell, V. Demidov, ``\textit{Laboratory analysis of granular materials properties, size distributions, chemical and mineralogical compositions relevant to dust-grain charging investigations}”, The Fourth Moscow Solar System Symposium (4M-S3), IKI RAS (Space Research Institute, Russian Academy of Sciences), Moscow, Russia, 14--18 October 2013} 
+
+%\cvitem{2013}{J. J. Walker, M.E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, ``\textit{Gyrophase Drift in Laboratory and Industrial Regimes}", Department of Energy Center for Predictive Control of Plasma Kinetics: Multi-Phase and Bounded Systems, College Park, MD, 16--17 May}
+
+%% Not sure if I should include this or not; I made the poster but Mark presented it.
+%\cvitem{2013}{J. J. Walker, M.E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, ``\textit{Signature of Gyro-phase Drift}", Meeting of the European Physical Societies Division of Plasma Physics, Espoo, Finland, 1--5 July}
+
+%\cvitem{2012}{J. J. Walker, M.E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, ``\textit{Magnitude and Direction of Fine-Particle Gyrophase Drift}", Meeting of the American Physical Society's Division of Plasma Physics, Providence, RI, 29 October--2 November}
+
+%\cvitem{2012}{J. J. Walker, M.E. Koepke, M. I. Zimmerman, W. M. Farrell, and V. I. Demidov, ``\textit{Magnitude and Direction of Gyrophase Drift in Dusty Plasmas with Structured Inhomogeneity}", Department of Energy Center for Predictive Control of Plasma Kinetics: Multi-Phase and Bounded Systems, Princeton Plasma Physics Laboratory, Princeton, NJ, 17--18 May}
+
+%\cvitem{2012}{M. I. Zimmerman, M.E. Koepke,  J. J. Walker, and W. M. Farrell, ``\textit{A Numerical Investigation of Dust Gyrophase Drift}", 13th Workshop on the Physics of Dusty Plasmas organized by Baylor University and the Center for Astrophysics, Space Physics and Engineering Research (CASPER), Baylor University, Waco, TX, 20--23 May}
+
+%----------------------------------------------------------------------------------------
+%	Relevant Coursework
+%----------------------------------------------------------------------------------------
+%% figure out how to fix this to make it look less terrible
+%\section{Relevant Coursework}
+%%\section{Graduate Courses Within Speciality}
+%\cvitem{--}{Numerical Simulations of Partial Differential equations}{}
+%\cvitem{--}{Computer Simulation of Plasma}{}
+%\cvitem{--}{Advanced Magnetohydrodynamics Theory of Plasma}{}
+%\cvitem{--}{Non-Linear Dynamics}{}
+%\cvitem{--}{Advanced Kinetic Theory of Plasma}{}
+%\cvitem{--}{Essentials of Leadership}{}
+
+% probably don't need outreach section in a generic resume.
+%----------------------------------------------------------------------------------------
+%	OUTREACH SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Outreach}
+
+%\cvitem{2014}{Science outreach activities representing the WVU Physics and Astronomy Department for potential students, grad students, and donors at West Virginia State Fair}{}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cvitemwithcomment{English}{Native}{}
+%\cvitemwithcomment{Spanish}{Basic}{Basic words and phrases only}
+%\cvitemwithcomment{German}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Polish}{Basic}{Basic words and phrases only}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Collaborators external to WVU
+%----------------------------------------------------------------------------------------
+%% Do I need this section??
+
+%----------------------------------------------------------------------------------------
+%	Professional Affiliations
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Professional Service
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Cello}{Guitar}
+%\cvlistitem{Weightlifting}{Painting}
+
+
+%----------------------------------------------------------------------------------------
+%	Attach additional pdf documents here!
+%----------------------------------------------------------------------------------------
+
+% use this command to include a pdf
+%%\includepdf[]{cv_7_classic.pdf}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
